@@ -1,6 +1,7 @@
 # Turf Booking System
 ## About
 The Software system is a turf management system where respective turfs can be managed by the owners. Also,it is a turf booking system where turf slots can be booked by the users depending upon their preference and availability.
+
 ## Technologies Used
 * NodeJS
 * ReactJS
@@ -10,6 +11,7 @@ The Software system is a turf management system where respective turfs can be ma
 * CSS
 * Bootstrap
 * Git
+  
 ## Features
 ### Admin
 * Turf owner can register their turf with details such as price, timings, name, location.
@@ -20,6 +22,7 @@ The Software system is a turf management system where respective turfs can be ma
 * User can register for booking purpose.
 * User can book turf slots according to their preference and availability.
 * User can check their booking history.
+
 ## Preview
 <table>
   <tr>
@@ -44,6 +47,12 @@ The Software system is a turf management system where respective turfs can be ma
   </tr>
 </table>
 
+## Installation
+### Visual Basic Code
+* Clone Git repository with the command - **git clone https://github.com/ani1100/turfers.git**
+* Install node modules in both Frontend & Backend folders with the command - **npm install**
+* Go to Frontend folder and run the application by using the command - **npm run both**
+
 ## Application Navigation
 ### Admin
 * **INFORMATION** - Turf Details such as name, location, price, timings can be saved. Details can be edited later.
@@ -54,9 +63,5 @@ The Software system is a turf management system where respective turfs can be ma
 * **BOOK SLOT** - User can book turf slots according to their preference and availability.
 * **BOOK HISTORY** - User can check their booking history.
 
-## Installation
-### Visual Basic Code
-* Clone Git repository with the command - **git clone https://github.com/ani1100/turfers.git**
-* Install node modules in both Frontend & Backend folders with the command - **npm install**
-* Go to Frontend folder and run the application by using the command - **npm run both**
+
 
