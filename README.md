@@ -54,7 +54,7 @@ The Software system is a turf management system where respective turfs can be ma
 * **BOOK SLOT** - User can book turf slots according to their preference and availability.
 * **BOOK HISTORY** - User can check their booking history.
 
-##Installation
+## Installation
 ### Visual Basic Code
 * Clone Git repository with the command - **git clone https://github.com/ani1100/turfers.git**
 * Install node modules in both Frontend & Backend folders with the command - **npm install**
