@@ -49,6 +49,8 @@ The Software system is a turf management system where respective turfs can be ma
 
 ## Installation
 ### Visual Basic Code
+* Ensure all necessary softwares are installed.
+* Add .env file inside Backend folder. Set the DB_URL varible in .env file (DB_URL='mongodb://127.0.0.1:27017/SampleDB').
 * Clone Git repository with the command - **git clone https://github.com/ani1100/turfers.git**
 * Install node modules in both Frontend & Backend folders with the command - **npm install**
 * Go to Frontend folder and run the application by using the command - **npm run both**
