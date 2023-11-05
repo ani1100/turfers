@@ -1,0 +1,175 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+.backcolor
+{
+  min-height: 100vh;
+  background-color:silver;
+}
+
+.userviewcss
+{
+  background-color:#FBFCFC;
+  width:40%;
+  margin-left:30%;
+  margin-right:30%;
+  text-align:center;
+  padding-top:10px;
+  padding-bottom:10px;
+  opacity:0.9;
+  border-radius:15px;
+  box-shadow: 5px 4px 2px black ;
+}
+
+.clear1
+{
+  clear:both;
+}
+.out
+{
+  float:left;
+  width:19%;
+  margin-right:5%;
+  margin-left:1%;
+}
+.vertical
+{
+  float:left;
+  width:100%;
+  box-shadow:inset 8px 8px 10px black,
+              8px 8px 2px black ;
+}
+.vertical ul
+{
+  list-style:none;
+  padding:5%;
+  margin:0px;
+}
+
+.vertical ul li a
+{
+  width:80%;
+  margin-left:10%;
+  margin-right:10%;
+  margin-top:20px;
+  margin-bottom:20px;
+  vertical-align: middle;
+  text-align:center;
+  padding:12px;
+  box-shadow:inset 5px 5px 10px black,
+              5px 4px 2px black ;
+  color:white;
+  background-color:grey;
+  text-decoration:none;
+  display:block;
+  border:1px black solid;
+}
+
+.vertical ul li a:hover
+{
+  background-color:white;
+  color:black;
+}
+
+.infodtls
+{
+  float:left;
+  padding:20px;
+  border:1px grey solid;
+  width:71%;
+  margin-right:4%;
+  background-color:#E6E6FA;
+  box-shadow:inset 3px 3px 2px grey,
+              5px 4px 2px grey ;
+}
+
+.homedtls
+{
+  float:left;
+  padding:20px;
+  border:1px grey solid;
+  width:71%;
+  height:400px;
+  margin-right:4%;
+  background-color:#E6E6FA;
+  box-shadow:inset 3px 3px 2px grey,
+              5px 4px 2px grey ;
+  text-align:center;
+  vertical-align: middle;            
+}
+
+.clear1
+{
+  clear:both;
+}
+
+.clear2
+{
+  clear:both;
+  border-bottom:1px white solid;
+}
+
+.homebutton
+{
+  background-color:black;
+  color:white;
+}
+
+.bookdtls1
+{
+  float:left;
+  width:15%;
+  margin-top:10px;
+  padding-left:10px;
+}
+
+.bookdtls2
+{
+  float:left;
+  width:70%;
+  text-align:center;
+}
+
+.bookdtls3
+{
+  float:left;
+  width:15%;
+  margin-top:10px;
+  text-align:center;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
